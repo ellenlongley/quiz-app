@@ -1,8 +1,10 @@
 {
+  "homepage": "https://ellenlongley.github.io/quiz-app/",
   "name": "react",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
