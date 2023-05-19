@@ -101,10 +101,13 @@ export default function QuizContainer({ quizQuestions, id }) {
           );
         })}
         <br />
-        <p className="correct-answers-message">
-          {correctAnswersNumber &&
-            `You got ${correctAnswersNumber}/${quizQuestions.length} answers correct.`}
-        </p>
+
+        {correctAnswersNumber && (
+          <p className="correct-answers-message">
+            {`You got ${correctAnswersNumber}/${quizQuestions.length} answers
+            correct.`}
+          </p>
+        )}
       </div>
       <br />
       <div>

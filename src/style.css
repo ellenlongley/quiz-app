@@ -51,4 +51,6 @@ button:disabled {
 
 .correct-answers-message {
   background-color: #9acd32;
+  padding: 5px;
+  width: 45%;
 }
