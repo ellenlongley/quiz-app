@@ -90,6 +90,7 @@ export default function QuizContainer({ quizQuestions, id }) {
             <>
               <input
                 type="radio"
+                key={i}
                 id={i}
                 onChange={() => onAnswerSelect(answer)}
                 checked={selectedAnswer === answer}
